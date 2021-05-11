@@ -147,7 +147,7 @@ class Game:
                 created = True
                 x = (2 * self.random.random() - 1) * (self.x_limit - self.predator_radius)
                 y = (2 * self.random.random() - 1) * (self.y_limit - self.predator_radius)
-                new_e = Entity(self.predator_radius, self.prey_speed, x, y)
+                new_e = Entity(self.predator_radius, self.predator_speed, x, y)
                 for e in self.obstacles:
                     if e.is_intersect(new_e):
                         created = False
