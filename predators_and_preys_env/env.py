@@ -14,10 +14,10 @@ DEFAULT_CONFIG = {
         "predator_radius": 1.0,
         "predator_speed": 6.0,
         "prey_speed": 9.0,
-        "world_timestep": 1/100,
+        "world_timestep": 1/40,
     },
     "environment": {
-        "frameskip": 5,
+        "frameskip": 2,
         "time_limit": 1000
     }
 }
