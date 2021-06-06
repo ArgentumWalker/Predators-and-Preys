@@ -9,7 +9,7 @@ DEFAULT_CONFIG = {
         "num_preys": 5,
         "x_limit": 9,
         "y_limit": 9,
-        "obstacle_radius_bounds": [0.8, 2.0],
+        "obstacle_radius_bounds": [0.8, 1.5],
         "prey_radius": 0.8,
         "predator_radius": 1.0,
         "predator_speed": 6.0,
